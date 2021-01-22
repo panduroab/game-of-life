@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game of life</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .content{
+                width: 100%;
+            }
+            button{
+                float: right;
+                padding: 10px;
+                font-size: 16px;
+                margin-top: 10px;
+                margin-left: 10px;
+                color: #FFF;
+                border: none;
+            }
+            .btnContent{
+                width: 1000px;
+            }
+            .start{
+                background-color: #0EBE0E;
+            }
+            
+            .reset{
+                background-color: #BE0E0E;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <canvas id="gameCanvas" width="1000" height="500"></canvas>
+            <div class="btnContent">
+                <button id="btnReset" class="reset">Reset</button>
+                <button id="btnStart" class="start">Start</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
